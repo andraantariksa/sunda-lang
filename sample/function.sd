@@ -1,0 +1,7 @@
+fn void(a : i32) -> {
+    a + a;
+}
+
+fn add(a : i32, b : i32) -> i32 {
+    a + b
+}

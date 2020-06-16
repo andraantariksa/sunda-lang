@@ -1,0 +1,6 @@
+fn main() -> int {
+    var a = 1; // Infered to i32
+    // var b; // Error, can't infer the type
+    var c : i64; // Infered to i64, uninitialized
+    var d : i64 = 2; // Infered to i64
+}
