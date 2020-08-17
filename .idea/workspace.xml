@@ -31,35 +31,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMPILING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/lib/googletest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/lib/structopt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/extern.sd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/oop.sd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/AST.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Lexer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Lexer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Location.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Location.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Parse.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Token.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syntax/Token.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/syntax/lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sunda-lang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sunda-lang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="Initial commit.&#10;Add test and lexer">
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +96,16 @@
       <option name="presentableId" value="Default" />
       <updated>1597646213977</updated>
       <workItem from="1597646215896" duration="1292000" />
-      <workItem from="1597647548570" duration="2624000" />
+      <workItem from="1597647548570" duration="3136000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.&#10;Add test and lexer">
+      <created>1597650260604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597650260604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +122,14 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial commit.&#10;Add test and lexer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit.&#10;Add test and lexer" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597646441139">
@@ -171,5 +160,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1597648382658" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597650280062">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597650280062" />
   </component>
 </project>
