@@ -5,8 +5,8 @@
 #include <structopt/structopt.hpp>
 
 #include "Type.h"
-#include "Syntax/Token.h"
-#include "Syntax/Lexer.h"
+#include "syntax/Token.h"
+#include "syntax/Lexer.h"
 
 struct Args {
   std::optional<bool> version = false;
