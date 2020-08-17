@@ -31,10 +31,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="Update .travis.yml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="update Travis CI g++ version">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.sunda">
     <configuration name="sunda_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_MODE="SUITE_TEST">
@@ -98,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597646213977</updated>
       <workItem from="1597646215896" duration="1292000" />
-      <workItem from="1597647548570" duration="3981000" />
+      <workItem from="1597647548570" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.&#10;Add test and lexer">
       <created>1597650260604</created>
@@ -121,7 +124,56 @@
       <option name="project" value="LOCAL" />
       <updated>1597650934544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix typo and lower the CMake requirement">
+      <created>1597651575684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597651575684</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update Travis CI g++ version">
+      <created>1597651954052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597651954052</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update Travis CI g++ version">
+      <created>1597652519150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597652519150</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update Travis CI g++ version">
+      <created>1597652986307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597652986307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update Travis CI g++ version">
+      <created>1597653902423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597653902423</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update Travis CI g++ version">
+      <created>1597654165009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597654165009</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update Travis CI g++ version">
+      <created>1597654404755</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597654404755</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +196,10 @@
     <MESSAGE value="Initial commit.&#10;Add test and lexer" />
     <MESSAGE value="Update gitmodules to use http(s) instead of ssh" />
     <MESSAGE value="Update .travis.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .travis.yml" />
+    <MESSAGE value="Fix typo and lower the CMake requirement" />
+    <MESSAGE value="Update Travis CI g++ version" />
+    <MESSAGE value="update Travis CI g++ version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Travis CI g++ version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -158,29 +213,29 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="378" y="110" width="599" height="581" key="#sunda_compiler/0.27.1366.741@0.27.1366.741" timestamp="1597646355744" />
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597651517591">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597651539919">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597651517591" />
-    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597651517590">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
+    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597651539919">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597651517590" />
-    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597651517590">
+    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
+    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597651539918">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597651517590" />
-    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597651517590">
+    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597651539918" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597651539919">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597651517590" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog" timestamp="1597648382658">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1597648382658" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597651043073">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597652529859">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597651043073" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597652529859" />
   </component>
 </project>

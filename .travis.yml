@@ -1,12 +1,21 @@
+dist: bionic
 language: cpp
+compiler:
+  - gcc
 addons:
   apt:
+    sources:
+      - ubuntu-toolchain-r-test
     packages:
       - make
       - cmake
       - libgtest-dev
+      - googletest
       - libboost-all-dev
-compiler:
-  - gcc
-  - clang
-script: mkdir build && cd build && cmake .. && cd test && make
+      - gcc-9
+      - g++-9
+script:
+  - export CC=gcc-9
+  - export CXX=g++-9
+  - sudo chmod +x ./script/install_deps.sh && ./script/install_deps.sh
+  - mkdir build && cd build && cmake .. && cd test && make && ./sunda_test
