@@ -1,5 +1,11 @@
 language: cpp
-install: make get-deps cmake libgtest-dev libboost-all-dev
+addons:
+  apt:
+    packages:
+      - make
+      - cmake
+      - libgtest-dev
+      - libboost-all-dev
 compiler:
   - gcc
   - clang
