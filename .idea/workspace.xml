@@ -20,9 +20,9 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="sunda-lang" targetName="sunda" />
       <config projectName="sunda-lang" targetName="sunda_compiler" />
       <config projectName="sunda-lang" targetName="sunda_test" />
-      <config projectName="sunda-lang" targetName="sunda" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -32,7 +32,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="update Travis CI g++ version">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Lexer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Token.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/syntax/lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/syntax/Lexer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <recent name="$PROJECT_DIR$/script" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.sunda">
+  <component name="RunManager" selected="Google Test.sunda_test">
     <configuration name="sunda_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -101,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597646213977</updated>
       <workItem from="1597646215896" duration="1292000" />
-      <workItem from="1597647548570" duration="7056000" />
+      <workItem from="1597647548570" duration="12325000" />
+      <workItem from="1597660194251" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.&#10;Add test and lexer">
       <created>1597650260604</created>
@@ -173,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597654404755</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update Travis CI g++ version">
+      <created>1597654630159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597654630159</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,22 +226,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="378" y="110" width="599" height="581" key="#sunda_compiler/0.27.1366.741@0.27.1366.741" timestamp="1597646355744" />
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597651539919">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597659850709">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
-    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597651539919">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597659850709" />
+    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597659850708">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
-    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597651539918">
+    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597659850708" />
+    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597659850708">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597651539918" />
-    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597651539919">
+    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597659850708" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597659850709">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597651539919" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597659850709" />
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog" timestamp="1597648382658">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

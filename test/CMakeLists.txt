@@ -1,7 +1,7 @@
 enable_testing()
 
 set(TEST_SOURCES
-        syntax/lexer.cpp)
+        syntax/Lexer.cpp)
 
 add_executable(sunda_test
         main.cpp

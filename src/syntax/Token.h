@@ -13,6 +13,7 @@ class Token {
   enum class Type {
     EndOfFile,
     Newline, // \n, \r\n
+    Whitespace, //  , \t
     Comment,
     Identifier,
     OpenParenthesis,  // (
@@ -50,7 +51,7 @@ class Token {
   };
 
   Type type;
-  boost::variant<std::string, char> value;
+  boost::variant<std::string, char, nullptr_t> value;
 
  private:
   u32 line_number;
