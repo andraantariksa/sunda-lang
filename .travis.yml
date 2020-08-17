@@ -1,0 +1,6 @@
+language: cpp
+install: make get-deps cmake libgtest-dev libboost-all-dev
+compiler:
+  - gcc
+  - clang
+script: mkdir build && cd build && cmake .. && cd test && make

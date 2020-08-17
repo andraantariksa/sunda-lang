@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/external/lib/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/external/lib/structopt" vcs="Git" />
   </component>
 </project>

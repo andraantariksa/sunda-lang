@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="sunda-lang" targetName="sunda_compiler" />
+      <config projectName="sunda-lang" targetName="sunda_test" />
+      <config projectName="sunda-lang" targetName="sunda" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COMPILING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/lib/googletest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/lib/structopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/extern.sd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/oop.sd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Lexer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Lexer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Location.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Location.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Parse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Token.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/Token.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/syntax/lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sunda-lang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sunda-lang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ucarjmnt" />
+  </component>
+  <component name="ProjectId" id="1gDPVVsW2xRKZ3ZXZfHAZqsgF0p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Google Test.sunda_test">
+    <configuration name="sunda_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sunda" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sunda_compiler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_compiler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.sunda" />
+      <item itemvalue="CMake Application.sunda_compiler" />
+      <item itemvalue="Google Test.sunda_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="" />
+      <created>1597646213977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597646213977</updated>
+      <workItem from="1597646215896" duration="1292000" />
+      <workItem from="1597647548570" duration="2624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597646441139">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1597646441139" />
+    <state x="378" y="110" width="599" height="581" key="#sunda_compiler" timestamp="1597646355744">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="378" y="110" width="599" height="581" key="#sunda_compiler/0.27.1366.741@0.27.1366.741" timestamp="1597646355744" />
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597649764779">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597649764779" />
+    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597649764778">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597649764778" />
+    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597649764778">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597649764778" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597649764779">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597649764779" />
+    <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog" timestamp="1597648382658">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1597648382658" />
+  </component>
+</project>

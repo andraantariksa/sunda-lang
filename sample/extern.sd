@@ -1,0 +1,13 @@
+// Extern explain to the compile if there's another function exists
+
+// Manual link
+extern "C" {
+    fn pow(f64 base, f64 exponent) -> f64;
+    fn printf(char* s, ...) -> i32;
+}
+
+// Dynamic link
+@[link(name = "math")]
+extern "C" {
+    fn sqsrt(f64 number) -> f64;
+}

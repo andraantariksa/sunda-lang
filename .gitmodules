@@ -1,0 +1,6 @@
+[submodule "external/lib/structopt"]
+	path = external/lib/structopt
+	url = git@github.com:p-ranav/structopt.git
+[submodule "external/lib/googletest"]
+	path = external/lib/googletest
+	url = git@github.com:google/googletest.git

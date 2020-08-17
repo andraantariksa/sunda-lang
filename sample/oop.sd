@@ -1,0 +1,23 @@
+intf Moveable2D {
+    fn move(x : i32, y : i32);
+}
+
+struct Position {
+    x : i32,
+    y : i32
+}
+
+def Position impl Moveable {
+    fn Position() {
+        println("Constructed");
+    }
+
+    fn ~Position() {
+        println("Destructed");
+    }
+
+    fn move(x : i32, y : i32) {
+        self.x += x;
+        self.y += y;
+    }
+}
