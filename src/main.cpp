@@ -1,5 +1,6 @@
 #define PROJECT_NAME "Sunda"
 #define PROJECT_VERSION "0.0.1"
+#define LLVM_VERSION "9.0.0"
 
 #include <cstdio>
 #include <structopt/structopt.hpp>

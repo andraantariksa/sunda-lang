@@ -1,6 +1,13 @@
+// TODO
+// Decide the main function return value?
+// Main function
 fn main() -> int {
-    var a = 1; // Infered to i32
-    // var b; // Error, can't infer the type
-    var c : i64; // Infered to i64, uninitialized
-    var d : i64 = 2; // Infered to i64
+    var a = 1;       // Infered to i32 (Default integer type)
+    // var b;        // Error, can't infer the type
+    var c : i64;     // Uninitialized i64
+    var d : i64 = 2; // 2 is i64
+    var e;
+    e = 2;           // e is i32
+    var f = 2_i64;   // 2 is i64
+    return 0;
 }

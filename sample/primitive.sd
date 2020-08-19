@@ -1,0 +1,6 @@
+fn main() -> int {
+    var arr = [1, 2, 3]; // Auto inferred to [int; 3]
+    var tupl = (1, 2, 3); // Auto inferred to tuple (i32, i32, i32)
+    var num = 1; // Auto inferred to i32
+    var str = "Hello, world"; // Auto inferred to std::String
+}

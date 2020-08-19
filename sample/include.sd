@@ -1,0 +1,4 @@
+// Include any module. In this case it includes oop.sd file
+// No cyclic include
+incl oop;
+incl primitive as primitive_type; // Alias

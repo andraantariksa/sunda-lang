@@ -1,13 +1,22 @@
+// Interface
 intf Moveable2D {
     fn move(x : i32, y : i32);
 }
 
+intf LikeADuck {
+    fn quack();
+}
+
+// Struct or class
 struct Position {
     x : i32,
     y : i32
 }
 
-def Position impl Moveable {
+// The member function block are separated unlike in most
+// OOP language like Java
+// Implement a Moveable2D interface
+def Position impl Moveable2D {
     fn Position() {
         println("Constructed");
     }
@@ -16,8 +25,42 @@ def Position impl Moveable {
         println("Destructed");
     }
 
+    // TODO
+    // Maybe override
     fn move(x : i32, y : i32) {
         self.x += x;
         self.y += y;
     }
+}
+
+// Can be implemented in another block or in one block like
+// `def Position impl Moveable2D, LikeADuck`
+def Position impl LikeADuck {
+    fn quack() {
+        println("Quack, I'm a duck");
+    }
+}
+
+struct Animal {}
+
+def Animal {
+    // 3 visibility like in Java
+    // - private
+    // - protected
+    // - public (Default if no visibility specified)
+    protected fn eat() {
+        println("Nom nom");
+    }
+}
+
+// The Dog inherit Animal
+struct Dog : Animal {}
+
+def Dog {
+    // Override the parent class member function
+    override protected fn eat() {
+        println("Nom nom, so delicious");
+    }
+
+    fn bark() {}
 }

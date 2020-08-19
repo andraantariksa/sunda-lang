@@ -1,13 +1,18 @@
 // Extern explain to the compile if there's another function exists
 
 // Manual link
-extern "C" {
-    fn pow(f64 base, f64 exponent) -> f64;
+// `extern` is equal with `extern "C"`
+// The string `"C"` can be used for future development for binding
+// another language? (Need research) e.g `extern "CPP"`
+extern {
+    fn pow(base : f64, exponent : f64) -> f64;
+    // Support pointer for C binding and variadic argument
     fn printf(char* s, ...) -> i32;
 }
 
 // Dynamic link
+// Will lookup for dynamic library at runtime
 @[link(name = "math")]
 extern "C" {
-    fn sqsrt(f64 number) -> f64;
+    fn sqrt(number : f64) -> f64;
 }

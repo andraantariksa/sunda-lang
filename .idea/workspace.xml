@@ -20,9 +20,9 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="sunda-lang" targetName="sunda" />
       <config projectName="sunda-lang" targetName="sunda_compiler" />
       <config projectName="sunda-lang" targetName="sunda_test" />
+      <config projectName="sunda-lang" targetName="sunda" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,13 +31,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="update Travis CI g++ version">
+    <list default="true" id="5fc85f8a-d8f3-4252-af2b-81b8646377e6" name="Default Changelist" comment="Implement lexer feature to consume number, string, keyword, newline, and whitespace.">
+      <change afterPath="$PROJECT_DIR$/sample/include.sd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/primitive.sd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codegen/Function.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codegen/Function.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/BoolLiteral.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/BoolLiteral.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/Expressions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/Expressions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/NumberLiteral.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/syntax/AST/NumberLiteral.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/extern.sd" beforeDir="false" afterPath="$PROJECT_DIR$/sample/extern.sd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/function.sd" beforeDir="false" afterPath="$PROJECT_DIR$/sample/function.sd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/main.sd" beforeDir="false" afterPath="$PROJECT_DIR$/sample/main.sd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/oop.sd" beforeDir="false" afterPath="$PROJECT_DIR$/sample/oop.sd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Type.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/AST.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/AST.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/AST.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/AST.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/syntax/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Lexer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/syntax/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Lexer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntax/Location.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Location.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/syntax/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntax/Token.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/syntax/lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/syntax/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/syntax/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/syntax/Lexer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +74,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ucarjmnt" />
   </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-sunda_compiler" />
+  </component>
   <component name="ProjectId" id="1gDPVVsW2xRKZ3ZXZfHAZqsgF0p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,14 +88,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/syntax/AST" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/syntax/AST" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/script" />
     </key>
   </component>
   <component name="RunManager" selected="Google Test.sunda_test">
+    <configuration name="LexerTest.Function" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_CLASS="LexerTest" TEST_METHOD="Function" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexerTest.Keyword_fn_incomplete" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_CLASS="LexerTest" TEST_METHOD="Keyword_fn_incomplete" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sunda_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sunda-lang" TARGET_NAME="sunda_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sunda-lang" RUN_TARGET_NAME="sunda_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -93,7 +133,15 @@
       <item itemvalue="CMake Application.sunda" />
       <item itemvalue="CMake Application.sunda_compiler" />
       <item itemvalue="Google Test.sunda_test" />
+      <item itemvalue="Google Test.LexerTest.Function" />
+      <item itemvalue="Google Test.LexerTest.Keyword_fn_incomplete" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.LexerTest.Keyword_fn_incomplete" />
+        <item itemvalue="Google Test.LexerTest.Function" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -107,7 +155,9 @@
       <updated>1597646213977</updated>
       <workItem from="1597646215896" duration="1292000" />
       <workItem from="1597647548570" duration="12325000" />
-      <workItem from="1597660194251" duration="253000" />
+      <workItem from="1597660194251" duration="670000" />
+      <workItem from="1597745756094" duration="7960000" />
+      <workItem from="1597811275690" duration="12689000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.&#10;Add test and lexer">
       <created>1597650260604</created>
@@ -186,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597654630159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implement lexer feature to consume number, string, keyword, newline, and whitespace.">
+      <created>1597660663568</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597660663568</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +269,8 @@
     <MESSAGE value="Fix typo and lower the CMake requirement" />
     <MESSAGE value="Update Travis CI g++ version" />
     <MESSAGE value="update Travis CI g++ version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Travis CI g++ version" />
+    <MESSAGE value="Implement lexer feature to consume number, string, keyword, newline, and whitespace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement lexer feature to consume number, string, keyword, newline, and whitespace." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -226,29 +284,73 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="378" y="110" width="599" height="581" key="#sunda_compiler/0.27.1366.741@0.27.1366.741" timestamp="1597646355744" />
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597659850709">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1597821105237">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597659850709" />
-    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597659850708">
+    <state width="1324" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597821105237" />
+    <state width="1324" height="174" key="GridCell.Tab.0.center" timestamp="1597821105236">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597659850708" />
-    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597659850708">
+    <state width="1324" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597821105236" />
+    <state width="1324" height="174" key="GridCell.Tab.0.left" timestamp="1597821105236">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597659850708" />
-    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597659850709">
+    <state width="1324" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597821105236" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right" timestamp="1597821105237">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597659850709" />
+    <state width="1324" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597821105237" />
+    <state width="1324" height="217" key="GridCell.Tab.1.bottom" timestamp="1597815225666">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597815225666" />
+    <state width="1324" height="217" key="GridCell.Tab.1.center" timestamp="1597815225665">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1597815225665" />
+    <state width="1324" height="217" key="GridCell.Tab.1.left" timestamp="1597815225664">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1597815225664" />
+    <state width="1324" height="217" key="GridCell.Tab.1.right" timestamp="1597815225666">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1597815225666" />
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog" timestamp="1597648382658">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="459" y="92" width="437" height="617" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1597648382658" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597652529859">
+    <state x="187" y="31" width="992" height="737" key="SettingsEditor" timestamp="1597746537293">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597652529859" />
+    <state x="187" y="31" width="992" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1597746537293" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597660679120">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597660679120" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1597813859830">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1597813859830" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597824136062">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1597824136062" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/syntax/Lexer.cpp</url>
+          <line>265</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/syntax/Lexer.cpp</url>
+          <line>272</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,6 +6,7 @@
 #include <istream>
 
 #include "Token.h"
+#include "../Type.h"
 
 namespace Sunda::Syntax {
 
@@ -21,6 +22,9 @@ class Lexer {
   char peek_char();
   void move_stream_to(std::iostream::pos_type pos);
 
+  u32 get_line_number();
+  u32 get_column_number();
+
   void expect_next_char(const std::function<bool(char)> &f);
   void expect_next_char(char c);
   void check_ident_or_keyword(Token::Type type, std::iostream::pos_type start);
@@ -31,6 +35,7 @@ class Lexer {
   void consume_ident(std::iostream::pos_type start);
   void consume_number();
   void consume_string();
+  Token single_symbol(Token::Type type);
 
   bool is_whitespace(char c);
   bool is_number(char c);

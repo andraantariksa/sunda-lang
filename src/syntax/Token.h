@@ -20,6 +20,8 @@ class Token {
     CloseParenthesis, // )
     OpenCurlyBraces,  // {
     CloseCurlyBraces, // }
+    OpenSquareBracket,  // [
+    CloseSquareBracket, // ]
 
     // Keyword
     Returning, // ->
@@ -33,6 +35,7 @@ class Token {
     // Primitive
     Integer,
     String,
+    Struct,
 
     // Op
     OpNotEq,  // !=
@@ -43,17 +46,23 @@ class Token {
     OpMod,    // %
     OpDiv,    // /
     OpMul,    // *
-    OpNot,    // !
+    OpNegate,    // !
     OpGT,     // >
     OpGTE,    // >=
     OpLT,     // <
     OpLTE,    // <=
+    OpBinAnd, // &
+    OpBinOr,  // |
+    OpBinXor, // ^
+    OpBinNegate, // ~
+    OpBinShiftLeft,  // <<
+    OpBinShiftRight, // >>
+    OpAnd,    // &&
+    OpOr,     // ||
   };
 
   Type type;
   boost::variant<std::string, char, nullptr_t> value;
-
- private:
   u32 line_number;
   u32 column_number;
   std::string filename;
